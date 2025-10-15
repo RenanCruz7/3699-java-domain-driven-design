@@ -1,6 +1,5 @@
 package br.com.alura.codechella.domain.evento;
 
-import br.com.alura.codechella.Categoria;
 import br.com.alura.codechella.domain.ingresso.TipoIngresso;
 
 import java.time.LocalDateTime;
@@ -17,7 +16,6 @@ public class Evento {
     public void incluiNovoTipoDeIngressoAoEvento(TipoIngresso tipoIngresso) {
         this.tipoIngressos.add(tipoIngresso);
     }
-
     public Categoria getCategoria() {
         return categoria;
     }
